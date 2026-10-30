@@ -29,10 +29,8 @@ nexus-ai-website/
 ├── main.js
 ├── assets/
 │   ├── hero-graphic.svg
-│   └── icons/        chatbot.svg · workflow.svg · data.svg · content.svg
-├── inspiration-1.png
-├── inspiration-2.png
-├── inspiration-3.png
+│   ├── project-*.jpg   case study photos
+│   └── icons/          chatbot.svg · workflow.svg · data.svg · content.svg
 └── README.md
 ```
 
@@ -50,8 +48,5 @@ No install needed. Open `index.html` in a browser, or serve the folder with VS C
 
 Replace `hello@nexusai.com` in `index.html` with your own address, and swap the placeholder client names, testimonials and project links.
 
-## Design inspiration
-
-The `inspiration-*.png` files are the visual references the design blends: editorial black-and-white typography, playful oversized stat counters, and a clean trust-forward service layout.
 
 All names, quotes and metrics on the site are fictional placeholders.
