@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" fill="none" role="img" aria-label="Abstract network of connected nodes">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2D2DFF"/>
+      <stop offset="1" stop-color="#8A8AFF"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8E8FF"/>
+      <stop offset="1" stop-color="#2D2DFF" stop-opacity="0.35"/>
+    </linearGradient>
+    <radialGradient id="g3" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2D2DFF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#2D2DFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="300" cy="300" r="290" fill="url(#g3)"/>
+  <path d="M120 360C70 250 140 110 290 90s240 90 210 220-150 210-260 190S160 450 120 360Z" fill="url(#g2)"/>
+
+  <circle cx="300" cy="300" r="210" stroke="#0D0D0D" stroke-width="1.5" stroke-dasharray="4 10"/>
+  <circle cx="300" cy="300" r="140" stroke="#0D0D0D" stroke-width="1.5"/>
+  <path d="M110 300a190 190 0 0 1 190-190" stroke="#2D2DFF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M490 300a190 190 0 0 1-190 190" stroke="#0D0D0D" stroke-width="10" stroke-linecap="round"/>
+
+  <g stroke="#0D0D0D" stroke-width="1.5">
+    <path d="M300 300 150 190M300 300l170-70M300 300l130 150M300 300 170 440"/>
+  </g>
+
+  <circle cx="300" cy="300" r="62" fill="url(#g1)"/>
+  <path d="M276 300h48M300 276v48" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+
+  <circle cx="150" cy="190" r="26" fill="#fff" stroke="#0D0D0D" stroke-width="2"/>
+  <circle cx="470" cy="230" r="34" fill="#0D0D0D"/>
+  <circle cx="430" cy="450" r="22" fill="#2D2DFF"/>
+  <circle cx="170" cy="440" r="30" fill="#fff" stroke="#2D2DFF" stroke-width="2"/>
+  <circle cx="470" cy="230" r="10" fill="#fff"/>
+  <circle cx="150" cy="190" r="8" fill="#2D2DFF"/>
+
+  <rect x="400" y="80" width="110" height="46" rx="23" fill="#fff" stroke="#0D0D0D" stroke-width="2"/>
+  <circle cx="426" cy="103" r="8" fill="#2D2DFF"/>
+  <rect x="444" y="98" width="46" height="10" rx="5" fill="#0D0D0D" opacity="0.15"/>
+
+  <rect x="70" y="500" width="130" height="46" rx="23" fill="#0D0D0D"/>
+  <circle cx="96" cy="523" r="8" fill="#2D2DFF"/>
+  <rect x="114" y="518" width="66" height="10" rx="5" fill="#fff" opacity="0.5"/>
+</svg>
